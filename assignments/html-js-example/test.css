@@ -1,0 +1,23 @@
+h1 {
+  color: blueviolet;
+  background-color: brown;
+  font-size: 1cm;
+}
+
+body {
+  background-color: darkgoldenrod;
+}
+
+h2 {
+  color: blue;
+}
+
+img {
+  width: 20%;
+  height: 40%;
+}
+
+p {
+  background-color: royalblue;
+  color: white;
+}
