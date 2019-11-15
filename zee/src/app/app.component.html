@@ -1,0 +1,32 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1 class="bg-primary text-white">{{ title | uppercase }}</h1>
+  <img width="200" alt="Angular Logo" src="../assets/tsconfig.png" />
+</div>
+<div class="container-fluid">
+  <div class="row ">
+    <div class="col-4"></div>
+    <div class="col-4 alert bg-warning text-center">The Bank You Always Wanted...</div>
+    <div class="col-4"></div>
+  </div>
+  <div class="row  bg-info border ">
+    <div class="col-4 text-left border">
+      <div><strong>Bank Name:</strong> {{ accountInfo.bankName }}</div>
+      <div><strong>Acciunt Name:</strong>{{ accountInfo.userName }}</div>
+      <div><strong>Company Name:</strong> {{ accountInfo.companyName }}</div>
+    </div>
+    <div class="col-4 text-left border">
+      <div><strong> Debit card balance :</strong> {{ accountInfo.debit.balance }}</div>
+      <div><strong> Debit card Account Number :</strong> {{ accountInfo.debit.accNumber }}</div>
+      <div><strong> Debit card Account Name :</strong>{{ accountInfo.debit.cardName }}</div>
+    </div>
+    <div class="col-4 text-left border">
+      <div><strong> Credit card limit :</strong> {{ accountInfo.credit.limit }}</div>
+      <div><strong> Credit card Number :</strong> {{ accountInfo.credit.cardNumber }}</div>
+      <div><strong> Credit Account Name :</strong>{{ accountInfo.credit.cardName }}</div>
+    </div>
+  </div>
+</div>
+<h2></h2>
+
+<router-outlet></router-outlet>
