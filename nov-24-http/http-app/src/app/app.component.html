@@ -1,0 +1,15 @@
+<!-- <button class="button" (click)="getUser()">Click for data</button> User =
+{{ user }} -->
+
+<h1>UserId = {{ users.id }}</h1>
+<h1>UserId = {{ users.email }}</h1>
+<h1>Username = {{ users.username }}</h1>
+
+<div>
+  <label
+    >id:
+    <input [(ngModel)]="id" placeholder="id" />
+  </label>
+</div>
+<input type="email" name="email" ngModel email="true" />
+<button (click)="getUser()">click to get user</button>
